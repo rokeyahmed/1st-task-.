@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+ class customer
+{
+    string name ;
+    int phone;
+    string address;
+public:
+    void setname(string n) {
+      name = n;
+    }
+    int getname() {
+      return name;}
+    void setphone(int p) {
+      phone = p;
+    }
+    int getphone() {
+      return phone;}
+    void setaddress(string a) {
+      address = a;
+    }
+    int getaddress() {
+      return address;}
+};
+int main()
+{
+    customer c;
+  c.setname(rokey);
+  cout << c.getname();
+  c.setphone(6666);
+  cout << c.getphone();
+  c.setaddress(bosundhora);
+  cout << c.getaddress();
+  return 0;
+}
+
